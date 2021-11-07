@@ -1,11 +1,23 @@
 // 呼叫 html 標籤,例如: nav,稱作類別選擇器
 // 呼叫id,例如<li id="test"><li>,id="test,「#」ID選擇器;「#test」
 // 呼叫class,class="test1",「.」類別選擇器;「.test1」
-// scss巢狀寫法
+// scss 1.巢狀寫法 2.變數  $yourname (設定計算用的基礎值) 3.繼承%yourname(css3語法相同,但能集中
+// 呈現);呼叫方式@extend %yourname
+// 傳統 csss3 的寫法 隱藏
+
+
+
 header{
+    // 寬度100%
+    // width: $w10 * 10;
     nav{
-       ul{
+       .Btnbox{
            background-color: rgb(133, 68, 25);
        }
+       #icon{
+        //  隱藏
+        display: none;
+       }
+
     }
 }

@@ -1,0 +1,11 @@
+// 呼叫 html 標籤,例如: nav,稱作類別選擇器
+// 呼叫id,例如<li id="test"><li>,id="test,「#」ID選擇器;「#test」
+// 呼叫class,class="test1",「.」類別選擇器;「.test1」
+// scss巢狀寫法
+header{
+    nav{
+       ul{
+           background-color: burlywood;
+       }
+    }
+}

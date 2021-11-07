@@ -1,22 +1,10 @@
-body {
-  background-color: black;
-}
-header {
-  // 寬度 高度 背景顏色 單位向素px
-  width: 300px;
-  height: 250px;
-  background-color: blanchedalmond;
-}
-#main {
-  //  寬度 高度 背景顏色 單位向素px
-  width: 600px;
-  height: 450px;
-  background-color: blue;
-}
+// 匯入檔案 @import
+@import '_01joint.scss';
 
-footer {
-  //  寬度 高度 背景顏色 單位向素px
-  width: 100px;
-  height: 350px;
-  background-color: burlywood;
+// RWD 利用媒體盼隊來區分顯示裝置尺寸
+// 超小裝置.<576PX,max-width(最小寬度) 
+
+@media screen and ( max-width:576px){
+  //匯入檔案import
+  @import''_02Esmall; 
 }

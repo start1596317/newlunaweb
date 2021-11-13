@@ -4,7 +4,8 @@
     "sources": [
         "../../scss/style.scss",
         "../../scss/_01joint.scss",
-        "../../scss/_02Esmall/_01index.scss"
+        "../../scss/_02Esmall/_01index.scss",
+        "../../scss/_03small/_01.index.scss"
     ],
     "names": [],
     "file": "style.min.css"

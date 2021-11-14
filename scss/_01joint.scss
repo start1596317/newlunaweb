@@ -32,3 +32,9 @@ $w10: 10%;
     // 清除左右浮動
     clear: both;
 }
+
+// 計算區
+// 計算header Logo 與 BtnBox之間的寬度
+@mixin LBW($WM, $WA) {
+    width: $w10 * $WM + $WA;
+}

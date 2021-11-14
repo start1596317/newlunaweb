@@ -18,6 +18,7 @@ header {
         解決方式
         1.nav 的父框架 header ，給予高度: 或是nav 給予高度
         2.清除浮動狀態，由 nav 設定
+        3.利用圖片高度撐開父框架的高
         */
         // 設定高度 單位為 % (未給予基值，所以無法計算出實際高度)
         // vh (可視裝置高度，計算出實際高度 ; 依照裝置的高度計算)
@@ -27,7 +28,9 @@ header {
         // 靠左排列(與MenuBoton同一行)
         #Logo {
             // 寬度 % or vw (螢幕可是範圍的高度百分比)
-            width: $w10 * 8;
+            // width: $w10 * 8+5%;
+            @include LBW(8, 5%);
+
             float: left;
             background-color: ivory;
         }
@@ -40,7 +43,7 @@ header {
             display: none;
         }
         #MenuBoton {
-            width: $w10 * 2;
+            width: $w10 * 1+5%;
             // 靠左對齊法:靠左對齊 float:left
             float: left;
         }

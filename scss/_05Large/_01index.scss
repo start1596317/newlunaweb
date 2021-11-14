@@ -6,6 +6,8 @@ header {
             background-color: rgb(222, 235, 41);
         }
         #icon {
+            // 開啟隱藏物件
+            @include OB;
         }
         #MenuBoton {
             @include DN;
